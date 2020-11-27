@@ -1,0 +1,75 @@
+
+
+<div class="iss__home-wrapper" ng-controller="homeCtrl" ng-init="appStart()">
+    <section class="iss__home-hero-section">
+        <h1 class="col-6 mx-auto py-5">Factory Proof of Concept</h1>
+
+        
+          <!-- <input id="filePicker" type = "file" file-model = "myFile" multiple/> 
+            <a ng-click="uploadFile()">upload file</a> -->
+          <!-- <upload-file></upload-file> -->
+
+<div class="container mt-0">
+		<!-- <h1 class="text-primary mb-4">SpRestLib Demo :: Upload File to SharePoint Library</h1> -->
+		<div class="row">
+			<!-- <div class="col">
+				<label for="asset">Asset Name</label>
+				<input type="text" id="asset">
+			</div>
+			<div class="col">
+				<label for="job-ref"></label>
+				<input type="text" id="job-ref">
+			</div>
+			<div class="col">
+				<label for="email"></label>
+				<input type="text" id="email">
+			<div class="col">
+				<label for="date"></label>
+				<input type="date" id="date">
+			</div>
+			
+			<a type="submit" id="submitBtn" class="btn btn-primary" ng-click="submitInfo()">submit</a> -->
+			<div class="col">
+				<div id="appOptions" class="container">
+					<h4 class="text-primary">Upload Demo</h4>
+					<div id="contOptions" class="container bg-light border px-4 py-3 my-3">
+						<!-- <div class="row mb-4">
+							<div class="col">
+								<label for="selDestLib" class="text-muted text-uppercase">Target Library</label>
+								<select id="selDestLib" class="form-control bg-white">
+									<option value="">Select...</option>
+								</select>
+								<div class="invalid-feedback">Please select a Library</div>
+								<div class="sprlib-spinner"><div class="sprlib-bounce1"></div><div class="sprlib-bounce2"></div><div class="sprlib-bounce3"></div></div>
+							</div>
+						</div> -->
+						<div class="row mb-3">
+							<div class="col">
+								<label for="selDestLib" class="text-muted text-uppercase">Source File</label>
+								<input id="filePicker" type="file" class="form-control" multiple>
+								<div class="invalid-feedback">Please select a File</div>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="btn btn-success w-50" ng-click="uploadFile()">Upload File</button>
+				</div>
+			</div>
+			<!-- <div class="col">
+				<div id="appCode" class="container">
+					<h4 class="text-primary">Upload Code</h4>
+					<div>
+						<pre class="my-3"><code id="sprLibCode" class="language-javascript"></code></pre>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</div>
+
+	<div id="appOutput" class="container mt-5">
+		<h4 class="">Output</h4>
+		<div id="console" class="p-3 my-3"></div>
+	</div>
+           
+    </section>
+</div>
+   
